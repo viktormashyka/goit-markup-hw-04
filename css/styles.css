@@ -97,20 +97,33 @@ img {
   display: flex;
 }
 
-.header-item:not(:last-child) {
-  margin-right: 30px;
-}
-
-.header-link-studio {
+.header-item > .header-link-studio {
   color: var(--hover-color);
 }
 
+.header-item > .header-link-portfolio {
+  color: var(--hover-color);
+}
+
+.header-item > a {
+  color: var(--main-color);
+}
+
+.header-item > a:hover,
+.header-item > a:focus {
+  color: var(--hover-color);
+}
+
+.header-item:not(:last-child) {
+  margin-right: 30px;
+}
+/* 
 .header-link-portfolio {
   color: var(--hover-color);
 }
 .header-link-contacts {
   color: var(--main-color);
-}
+} */
 
 .header-link-studio:hover,
 .header-link-studio:focus,
