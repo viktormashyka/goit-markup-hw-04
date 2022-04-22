@@ -117,13 +117,6 @@ img {
 .header-item:not(:last-child) {
   margin-right: 30px;
 }
-/* 
-.header-link-portfolio {
-  color: var(--hover-color);
-}
-.header-link-contacts {
-  color: var(--main-color);
-} */
 
 .header-link-studio:hover,
 .header-link-studio:focus,
