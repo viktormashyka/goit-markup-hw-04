@@ -102,11 +102,11 @@ img {
 }
 
 .header-link-studio {
-  color: var(--main-color);
+  color: var(--hover-color);
 }
 
 .header-link-portfolio {
-  color: var(--main-color);
+  color: var(--hover-color);
 }
 .header-link-contacts {
   color: var(--main-color);
