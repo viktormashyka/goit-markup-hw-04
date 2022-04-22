@@ -542,7 +542,8 @@ justify-content: space-between;
 /* -----------------------------FOOTER---------------------------- */
 .footer {
   background-color: var(--background-color);
-  display: flex;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .footer-container {
@@ -551,7 +552,6 @@ justify-content: space-between;
 }
 
 .footer-logo-adress-box {
-  padding-top: 60px;
 }
 
 .footer-logo-adress-box + .footer-social {
@@ -610,7 +610,6 @@ justify-content: space-between;
 }
 
 .footer-social {
-  /* padding: 72px 0 100px 0; */
 }
 
 .footer-social-titel {
